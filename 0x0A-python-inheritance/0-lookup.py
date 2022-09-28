@@ -1,8 +1,6 @@
 #!/usr/bin/python3
 
-
 def lookup(obj):
-    """returns all objects in an objects dictionary
-        -> as a list
-    """
+    """Function for return the attributes for an object"""
+
     return dir(obj)
