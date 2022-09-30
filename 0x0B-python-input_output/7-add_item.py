@@ -1,9 +1,15 @@
 #!/usr/bin/python3
 """Module for saving to json"""
+
+
 import json
 import os.path
 import sys
 from sys import argv
+'''
+Importing funcs
+'''
+
 
 save_to_json_file = __import__('7-save_to_json_file').save_to_json_file
 load_from_json_file = __import__('8-load_from_json_file').load_from_json_file
