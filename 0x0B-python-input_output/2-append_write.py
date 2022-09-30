@@ -3,6 +3,7 @@
 Append and write
 '''
 
+
 def append_write(filename="", text=""):
     '''
     Append and write
