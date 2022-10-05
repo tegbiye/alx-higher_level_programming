@@ -25,7 +25,7 @@ class Base:
         return json.dumps(list_dictionaries)
 
     @classmethod
-    def save_to_file(cls, list_objs):
+    def save_to_file_csv(cls, list_objs):
         """Json string to file"""
         list = []
         if list_objs is not None:
@@ -51,7 +51,7 @@ class Base:
         return holder
 
     @classmethod
-    def load_from_file(cls):
+    def load_from_file_csv(cls):
         """file to instances"""
         if not os.path.exists(cls.__name__ + ".json"):
             return []
