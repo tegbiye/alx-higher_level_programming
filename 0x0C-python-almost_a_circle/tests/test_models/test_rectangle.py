@@ -25,7 +25,7 @@ class rectangle_tests(unittest.TestCase):
         with self.assertRaises(TypeError, msg=err):
             Rect(1)
 
-    def def test_TooManyArgs(self):
+    def test_TooManyArgs(self):
         """Test too many args"""
         err = "too many arguments man"
         with self.assertRaises(TypeError, msg=err):
